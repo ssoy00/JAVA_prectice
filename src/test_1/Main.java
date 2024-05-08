@@ -7,9 +7,11 @@ import java.io.IOException;
 public class Main extends JFrame {
 
     public Main() {
+    	
         setTitle("Transparent Image Frame");
         setUndecorated(true);
         setBackground(new Color(0, 0, 0, 0));
+        
 
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int screenWidth = (int) screenSize.getWidth();
@@ -36,6 +38,7 @@ public class Main extends JFrame {
     }
 
     public static void main(String[] args) {
+    	
         new Main();
     }
 }
