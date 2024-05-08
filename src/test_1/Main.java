@@ -7,6 +7,7 @@ import java.io.IOException;
 public class Main extends JFrame {
 
     public Main() {
+    	
 
         String name = JOptionPane.showInputDialog("좋아하는 동물을 입력하세요."); 
     	
