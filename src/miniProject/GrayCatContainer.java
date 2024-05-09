@@ -42,7 +42,7 @@ public class GrayCatContainer extends JPanel implements MouseListener {
 
     // 마우스가 클릭되었을 때의 이벤트 처리
     public void mouseClicked(MouseEvent e) {
-        openWeeklySchedulerApp(); // 위클리 스케쥴러 앱 열기
+    	openCalculator(); // 위클리 스케쥴러 앱 열기
     }
 
     // 다른 마우스 이벤트들에 대한 더미 메소드들
@@ -50,7 +50,7 @@ public class GrayCatContainer extends JPanel implements MouseListener {
     public void mouseReleased(MouseEvent e) {}
 
     // 위클리 스케쥴러 앱을 열기 위한 메소드
-    private void openWeeklySchedulerApp() {
+    private void openCalculator() {
         SwingUtilities.invokeLater(() -> {
             new Calculator().setVisible(true); // 위클리 스케쥴러 앱 실행
         });
