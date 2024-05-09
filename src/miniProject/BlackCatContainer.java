@@ -1,4 +1,4 @@
-package test_1;
+package miniProject;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package test_1;
+package miniProject;
 
 import java.awt.Color;
 import java.awt.Font;
